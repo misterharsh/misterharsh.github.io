@@ -53,6 +53,7 @@ linkedin:           hkmodhera
 #xmpp:              username@server.com
 #hackernews:        username
 #behance:           username
+resume:             ./resume_fa17.pdf
 
 # Gems
 gems:
