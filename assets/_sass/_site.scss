@@ -83,6 +83,16 @@ canvas {
   }
 }
 
+.homelogo {
+    top: 30px;
+    right: 30px;
+    position: absolute;
+    &:after {
+      display: none;
+    }
+  }
+
+
 .posts-link {
   position: absolute;
   top: 73px;
