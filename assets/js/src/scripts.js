@@ -5,6 +5,7 @@ $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gi
 $(function() {
   $(".content").fitVids();
 });
+
 /*
 // Projects Menu
 $('.projects-menu-icon').click(function() {
@@ -12,7 +13,8 @@ $('.projects-menu-icon').click(function() {
   $(this).toggleClass('active');
   $('.overlay').toggleClass('show');
 });
-*/  
+*/ 
+
 // All others
 $(document).ready(function() {
 	$('.image-popup').magnificPopup({
