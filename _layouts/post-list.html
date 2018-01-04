@@ -9,6 +9,7 @@ layout: compress
 
     <div class="block-left">
       <div class="content">
+        <a href="/" class="logo"><img src="{{ site.baseurl }}/images/{{ site.logo }}"></a>
         <div class="post-title-section">
           <div class="section-line">Home<em>/</em></div>
           <h1 class="section-title" style="font-size: 80px">{{page.title}}</h1>
@@ -23,7 +24,7 @@ layout: compress
         {% for post in site.posts %}
           <li>
             <h2>
-              <a href="{{ site.url }}{{ post.url }}" class="post-title">
+              <a href="{{ site.baseurl }}{{ post.url }}" class="post-title">
                 <span>{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</span>
               </a>
               <span class="date">{{ post.date | date: '%d %b %Y' }}</span>
