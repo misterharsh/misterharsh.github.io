@@ -8,7 +8,7 @@ layout: compress
 <body id="posts" class="inner-post-page">
 
     <div class="block-left">
-      <a href="/" class="logo"><img src="{{ site.baseurl }}/images/{{ site.logo }}"></a>
+      <a href="{{ site.baseurl }}" class="logo"><img src="{{ site.baseurl }}/images/{{ site.logo }}"></a>
       <div class="content">
         <div class="post-title-section">
           <div class="section-line">Home<em>/</em>Posts<em>/</em></div>
@@ -20,7 +20,7 @@ layout: compress
               {% endunless %}
             {% endfor %}
           </ul>
-          <div class="section-line reverse"><em>/</em><a href="{{ site.url }}/posts">Back to posts</a><em>/</em><a href="{{ site.url }}">Back to home</a></div>
+          <div class="section-line reverse"><em>/</em><a href="{{ site.baseurl }}/posts">Back to posts</a><em>/</em><a href="{{ site.baseurl }}">Back to home</a></div>
         </div>
       </div>
     </div>
