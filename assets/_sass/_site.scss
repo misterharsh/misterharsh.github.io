@@ -529,6 +529,14 @@ canvas {
   margin-bottom: 50px;
 }
 
+footer {
+  color: #ccc;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  @include vendor-prefix(user-select, none);
+}
+
 .share-buttons {
   position: absolute;
   top: 32px;
